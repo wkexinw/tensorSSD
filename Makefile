@@ -1,4 +1,3 @@
-include ../Rules.mk
 SRCS:= $(wildcard *.cpp)
 SRCS+= $(wildcard *.cu)
 
