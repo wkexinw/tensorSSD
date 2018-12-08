@@ -14,6 +14,15 @@ Deep-Learn model SSD_300x300 transplante to TensorRT(Nvidia Jetson Tx2)
 		tensorSSD->initialize(1280,720);
 ```
 
+ * #### convert SSD model to tensorRT model cache
+``` 
+tensorSSD->convertCaffeSSDModel("SSD.prototxt", "SSD.model", "trtModel.cache")
+ 
+```
+ NOTE: you should modify the deploy file to remove or comment the item that tensorRT not supported
+
+
+
  * #### load cached model file  
 ```
 		//load model cached file & get cached file size
