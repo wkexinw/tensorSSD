@@ -53,7 +53,9 @@ tensorSSD->convertCaffeSSDModel("SSD.prototxt", "SSD.model", "trtModel.cache")
 ```
 
 
+ * #### Demo
 
+	 * Ubuntu16.04,Cuda9.0,NV GEFORCE gtx 1060 on PC(x86_64)
+	 * USB camera, mp4 file play on a smart phone.
 
-
-
+![img](demo.jpg)
